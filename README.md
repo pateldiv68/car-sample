@@ -1,6 +1,8 @@
 # IoT Connected Car Sample
 Modified from the IoT-Connected-Vehicle-Starter-Kit (https://github.com/ibm-messaging/iot-connected-vehicle-starter-kit). To be used in IBM Bluemix IoT hands-on workshops.
 
+To get instructables for connecting popular physical devices or sensors, see: https://developer.ibm.com/recipes
+
 ## Introduction
 The "IoT Connected Car Sample" is a modified version from "Connected Vechicle Starter Kit" and it consists of three applications:
 
@@ -45,7 +47,7 @@ This simulator application uses IoT Foundation for near real-time messaging betw
 
 The vehicle simulator allows you to model multiple vehicles from a single Node.js runtime instance.  Each vehicle simulator will be treated as a **device** by IoT Foundation.  You will eventually run 3 vehicle simulators, so the first step is to manually register these simulators to obtain access credentials.
 
-> REST APIs for device registration with IoT Foundation are also [available](https://developer.ibm.com/iot/recipes/api-documentation/#registerDevice)
+> REST APIs for device registration with IoT Foundation are also [available](https://docs.internetofthings.ibmcloud.com)
 
 * From the organization dashboard's "Devices" tab, press **Add Device** on the bottom of the page.
 
