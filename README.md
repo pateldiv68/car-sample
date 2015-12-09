@@ -229,9 +229,9 @@ The Map app subscribes to commands of type **addOverlay**, to allow external app
 
     ![pic add overlay 1]
 
-## Next Steps - Geospatial and Node-RED
+## Next Steps - Node-RED
 
-The application can be extended with the Bluemix Geospatial Service and [Node-RED](www.nodered.org).  Read Sections 8 and 9 in this [tutorial](http://m2m.demos.ibm.com/dl/iot-connected-vehicle-tutorial.pdf).
+The application can be extended with Node-RED to easilly create flows to deal with data streams to/from devices. Bluemix contains two sample boilerplates (templates) for Node-RED, [Internet of Things Foundation Starter](https://console.ng.bluemix.net/catalog/starters/internet-of-things-foundation-starter/) and [Node-RED Starter](https://console.ng.bluemix.net/catalog/starters/node-red-starter/). You can start with either, but [Internet of Things Foundation Starter](https://console.ng.bluemix.net/catalog/starters/internet-of-things-foundation-starter/) already contains a sample flow for temperature/humidity simulated sensor.  Read section 9 in this [tutorial](http://m2m.demos.ibm.com/dl/iot-connected-vehicle-tutorial.pdf) to understand how to use it with connected vehicle simulator.
 
 [MQTT]:http://mqtt.org
 [Iot Foundation]:http://internetofthings.ibmcloud.com
