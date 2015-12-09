@@ -116,7 +116,7 @@ You next will generate an API key for your organization.  An API key provides cr
 
 ### 4. Clone & Configure the Sample
 
-* Clone this repository to your local machine (git clone <git address>)
+* Clone this git repository to your local machine either by using "git clone" command line or downloading & extracting the [master.zip](https://github.com/jruponen/iot-connected-car-sample/archive/master.zip). If you do not yet have git command line set up, here's the [git set up instructions](https://help.github.com/articles/set-up-git). 
 
 * Choose a globally unique application name to be used in Bluemix deployment (e.g. using your initials in the beginning of the name: **jriot-connected-car**) and enter this name for the **host** and **name** fields in  [manifest.yml](https://github.com/jruponen/iot-connected-car-sample/blob/master/manifest.yml). Also ensure the number of **instances** is **1** and **VEHICLE_COUNT** is **3**.
 
