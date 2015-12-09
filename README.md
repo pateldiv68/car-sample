@@ -116,7 +116,7 @@ You next will generate an API key for your organization.  An API key provides cr
 
 * Clone this repository to your local machine (git clone <git address>)
 
-* Choose a globally unique application name to be used in Bluemix deployment (e.g. using your initials in the beginning of the name: **jriot-connected-car**) and enter this name for the **host** and **name** fields in  [manifest.yml](https://github.com/ibm-messaging/iot-connected-vehicle-starter-kit/blob/master/manifest.yml). Also ensure the number of **instances** is **1** and **VEHICLE_COUNT** is **3**.
+* Choose a globally unique application name to be used in Bluemix deployment (e.g. using your initials in the beginning of the name: **jriot-connected-car**) and enter this name for the **host** and **name** fields in  [manifest.yml](https://github.com/jruponen/iot-connected-car-sample/blob/master/manifest.yml). Also ensure the number of **instances** is **1** and **VEHICLE_COUNT** is **3**.
 
         applications:
         - host: iot-connected-car-sample
@@ -131,7 +131,7 @@ You next will generate an API key for your organization.  An API key provides cr
              VEHICLE_COUNT: 3
 
 
-* All configuration for IoT Foundation is found in [config/settings.js](https://github.com/ibm-messaging/iot-connected-vehicle-starter-kit/blob/master/config/settings.js).  This file stores all device tokens and API keys.  Edit the file according to your keys.
+* All configuration for IoT Foundation is found in [config/settings.js](https://github.com/jruponen/iot-connected-car-sample/blob/master/config/settings.js).  This file stores all device tokens and API keys.  Edit the file according to your keys.
 
   * For **iot_deviceType**, enter **vehicle**
   * For **iot_deviceOrg**, enter your 6-character organization ID (e.g. **o4ze1w**)
