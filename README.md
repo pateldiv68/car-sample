@@ -169,7 +169,7 @@ To deploy the Connected Vehicle application to Bluemix, use the Cloud Foundry [c
 
         cf start <APP_NAME>
 
-* If the Geospatial Analytics service does not start automatically, you may start it via REST API: http://<APP_NAME>.mybluemix.net/GeospatialService_start.
+* If the Geospatial Analytics service does not start automatically, you may start it via REST API: http://APP_NAME.mybluemix.net/GeospatialService_start
     
 * If the application does not start successfully, view the error logs:
 
@@ -179,7 +179,7 @@ To deploy the Connected Vehicle application to Bluemix, use the Cloud Foundry [c
 * Check manifest.yml for errors, such as tabs in place of whitespace.
 
 
-* Now, visit the Map app at your URL: **http://<APP_NAME>.mybluemix.net**.  You will see the simulated vehicles moving across the map.  Click on a vehicle to view the telemetry data.
+* Now, visit the Map app at your URL: **http://APP_NAME.mybluemix.net**.  You will see the simulated vehicles moving across the map.  Click on a vehicle to view the telemetry data.
 
     ![pic map 1]
 
@@ -202,7 +202,7 @@ Each vehicle simulator can model multiple vehicles.  The number of vehicles is c
 
 The Tester app is used to send commands to the simulated vehicles and the Map app.  The vehicle simulator subscribes to commands of type **setProperty** and will dynamically change its own properties, speed, and state.  The Map app subscribes to commands of type **addOverlay** and will dynamically display a popup of text over a vehicle.
 
-* Open the Map app and Tester app (http://<APP_NAME>.mybluemix.net/tester) side-by-side, so that you can see both windows.
+* Open the Map app and Tester app (http://APP_NAME.mybluemix.net/tester) side-by-side, so that you can see both windows.
 
 ##### 7.1  **setProperty** API
 
