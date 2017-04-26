@@ -16,14 +16,14 @@
  *******************************************************************************/
 
 var config = {
-	iot_deviceType: "vehicle",     // replace with your deviceType
-	iot_deviceOrg: "<ORG>",       // replace with your IoT Foundation organization
+	iot_deviceType: "bus",     // replace with your deviceType
+	iot_deviceOrg: "8cjz3z",       // replace with your IoT Foundation organization
 	iot_deviceSet: [               // replace with your registered device(s)
-		{ deviceId: "BUS", token: "<DEVICE_AUTH_TOKEN>" },
-		{ deviceId: "BUS-1", token: "<DEVICE_AUTH_TOKEN>" }
+		{ deviceId: "as78as53", token: "Lc3&OW(W&)wER*vGWc" },
+		{ deviceId: "as78as56", token: "nOyYYjwkQMiQlUx7nf" }
 	],
-	iot_apiKey: "<API_TOKEN>",    // replace with the key for a generated API token
-	iot_apiToken: "<AUTH_TOKEN>",  // replace with the generated Authentication token
+	iot_apiKey: "a-8cjz3z-a22uqyb6gh",    // replace with the key for a generated API token
+	iot_apiToken: "2s8epIFRZTGeQ7Llp@",  // replace with the generated Authentication token
 
 	// these topics will be used by Geospatial Analytics
 	notifyTopic: "iot-2/type/api/id/geospatial/cmd/geoAlert/fmt/json",
